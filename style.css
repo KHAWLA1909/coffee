@@ -1,106 +1,95 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.just {
-    background-color: black;
-}
-
-header a {
-    display: flex;
-    background: white;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    border-radius: 10px;
-    position: relative;
-    left: auto;
-}
-
-header a:hover {
-    background-color: rgb(20, 95, 160);
-    width: 100px;
-}
-
-header button {
-    justify-content: center;
-    align-items: center;
-    background: #d05d23;
-}
-
-.Page {
-    display: flex;
-    justify-content: space-between;
-    color: #ddd;
-    background-color: black;
-    border-radius: 17px;
-    align-items: center;
-    padding: 16px 50px;
-    flex-direction: row;
-}
-
-.here {
-    background-color: rgb(213, 110, 31);
-    border-radius: 17px;
-}
-
-p {
-    line-height: 1.6;
-    max-width: 500px;
-}
-
-.img {
-    display: block;
-    margin: 20px auto;
-}
-
-.now {
-    border-radius: 17px;
-}
-
-.contaicner button {
-    background: #d05d23;
-    position: absolute;
-    left: auto;
-    border-radius: 17px;
-}
-
-.contaicner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px;
-    background-color: #fff;
-    border-radius: 17px;
-}
-
-.contaicner-now span {
-    gap: 30px;
-    align-items: center;
-    padding: 60px 17px 19px 18px;
-}
-
-footer {
-    padding: 17px;
-    border-radius: 17px 18px 19px 19px;
-    color: white;
-    background-color: black;
-    text-align: center;
-    font-size: xx-large;
-}
-
-.more-contaicner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px;
-    background-color: #fff;
-    border-radius: 17px;
-}
-
-.more-contaicner button {
-    background: #d05d23;
-    position: absolute;
-    left: auto;
-    border-radius: 17px;
-}
+                        body {
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                        
+                        .just {
+                            background-color: black;
+                        }
+                        
+                        header {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 10px 40px;
+                            border-radius: 17px;
+                            background-color: rgb(253, 154, 7);
+                        }
+                        
+                        header a:hover {
+                            background-color: rgb(20, 95, 160);
+                            width: 100px;
+                        }
+                        
+                        header button {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-radius: 17px;
+                            background: #ad400a;
+                            border-bottom: 16px;
+                        }
+                        
+                        .Page {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-radius: 17px;
+                            background: #ad400a;
+                            border-bottom: 16px;
+                        }
+                        
+                        .Page {
+                            color: #ddd;
+                            background-color: black;
+                            border-radius: 17px;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
+                        
+                        .btu button {
+                            display: flex;
+                            border-radius: 17px;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
+                        
+                        .btu img {
+                            position: relative;
+                            display: inline-flex;
+                            border-radius: 17px 18px 18px 19px;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-bottom: 16px;
+                            padding: 17px;
+                            margin: 18px;
+                        }
+                        
+                        .contaicner-now button {
+                            background: #ad400a;
+                            border-radius: 17px;
+                        }
+                        
+                        .more-contaicner {
+                            position: relative;
+                            display: inline-flex;
+                            border-radius: 17px 18px 18px 19px;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-bottom: 16px;
+                            padding: 17px;
+                            margin: 18px;
+                        }
+                        
+                        footer {
+                            border-radius: 18px;
+                            font-size: xx-large;
+                            color: #ddd;
+                            text-align: center;
+                            background-color: #020101;
+                        }
+                        
+                        .contaicner-now {
+                            padding: auto;
+                            width: 180px;
+                            background-color: #EEEEEEEE;
+                        }
