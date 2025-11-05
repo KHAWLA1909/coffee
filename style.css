@@ -11,8 +11,11 @@
                             justify-content: space-between;
                             align-items: center;
                             padding: 10px 40px;
+                        }
+                        
+                        header a {
                             border-radius: 17px;
-                            background-color: rgb(253, 154, 7);
+                            padding: 18px;
                         }
                         
                         header a:hover {
@@ -38,15 +41,24 @@
                             border-bottom: 16px;
                         }
                         
+                        .btu {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            position: relative;
+                        }
+                        
                         .Page {
                             color: #ddd;
                             background-color: black;
-                            border-radius: 17px;
+                            border-radius: 17px 18px 19px;
                             justify-content: space-between;
                             align-items: center;
+                            padding: 12px auto;
                         }
                         
                         .btu button {
+                            background-color: #ad400a;
                             display: flex;
                             border-radius: 17px;
                             justify-content: space-between;
