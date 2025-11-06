@@ -83,7 +83,7 @@
                         
                         .more-contaicner {
                             position: relative;
-                            display: inline-flex;
+                            display: block;
                             border-radius: 17px 18px 18px 19px;
                             justify-content: space-between;
                             align-items: center;
@@ -104,4 +104,25 @@
                             padding: auto;
                             width: 180px;
                             background-color: #EEEEEEEE;
+                        }
+                        
+                        .main {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 10px 40px;
+                        }
+                        
+                        .main button {
+                            background: #ad400a;
+                            display: flex;
+                            border-radius: 17px;
+                            justify-content: space-around;
+                            align-items: center;
+                        }
+                        
+                        .main img {
+                            justify-content: space-between;
+                            align-items: center;
+                            border-radius: 18px;
                         }
